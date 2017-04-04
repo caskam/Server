@@ -37,7 +37,7 @@ public class Server extends JFrame {
         add(userText, BorderLayout.NORTH);
         chatWindow = new JTextArea();
         add(new JScrollPane(chatWindow));
-        setSize(300, 150); //change size later 
+        setSize(700, 300); //change size later 
         setVisible(true);
     }
 
